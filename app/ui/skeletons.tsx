@@ -161,6 +161,21 @@ export function InvoicesMobileSkeleton() {
       </div>
     </div>
   );
+
+}
+
+export function SearchBarSkeleton() {
+  return (
+    <div className="relative flex flex-1 h-10 flex-shrink-0 rounded-md bg-gray-100" ></div>
+  )
+}
+
+export function ActionButtonSkeleton() {
+  return (
+    <div className="flex h-10 items-center rounded-lg bg-blue-200 px-4">
+      <div className="md:w-20 w-20"></div>
+    </div>
+  )
 }
 
 export function InvoicesTableSkeleton() {
